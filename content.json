@@ -1,0 +1,61 @@
+{
+	"home": {
+		"heading": "Hi, my name is **Tristan**.",
+		"subheading": "I'm a full-stack web developer, 3D generalist, gamer, and glorified _nerd_.",
+		"cards": [
+			{
+				"title": "Open Source",
+				"description": "Libraries, frameworks, and tooling.",
+				"thumbnail": "/open-source.jpg",
+				"link": "https://github.com/r3oath"
+			},
+			{
+				"title": "Playground",
+				"description": "Atoms, molecules, and organisms.",
+				"thumbnail": "/components.jpg",
+				"link": "/playground"
+			},
+			{
+				"title": "3D Modelling",
+				"description": "Hard surface, game assets, and stylised.",
+				"thumbnail": "/3d-modelling.jpg",
+				"link": "https://www.artstation.com/tristomenace"
+			},
+			{
+				"title": "Photography",
+				"description": "Landscape, industrial, and creative.",
+				"thumbnail": "/photography.jpg",
+				"link": "https://500px.com/dunebox"
+			}
+		]
+	},
+	"playground": {
+		"heading": "Playground.",
+		"subheading": "This page is my playground. Whenever I stumble across _attractive_ UI elements on the web or mobile apps, I attempt to recreate them. Not only does it serve to hone my skills, but it's always an enjoyable challenge.",
+		"intro": "I'm sharing this with you so that it may not only inspire you to try the same (if you're a developer) but also serve as a demonstration of my front-end development capabilities.",
+		"tooling": "My toolset of choice is [TailwindCSS](https://tailwindcss.com/), [React](https://react.dev/), [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [DatoCMS](https://www.datocms.com/)",
+		"logos": [
+			{
+				"src": "/tailwindcss.svg",
+				"alt": "TailwindCSS"
+			},
+			{
+				"src": "/reactjs.svg",
+				"alt": "ReactJS"
+			},
+			{
+				"src": "/nextjs.svg",
+				"alt": "Next.js"
+			},
+			{
+				"src": "/vercel.svg",
+				"alt": "Vercel"
+			},
+			{
+				"src": "/datocms.svg",
+				"alt": "DatoCMS"
+			}
+		],
+		"placeholder": "I'm porting over all the UI experiments and examples from various places on the web I've used in the past. Please stay tuned; they'll be here soon."
+	}
+}
