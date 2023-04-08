@@ -12,16 +12,15 @@ const metadata = {
 	description: 'I\'m a full-stack web developer, 3D generalist, gamer, and glorified nerd.',
 };
 
-const Layout = ({children}: LayoutProperties): React.ReactElement => (
+const RootLayout = ({children}: LayoutProperties): React.ReactElement => (
 	<html lang="en">
-		<body className={`antialiased ${inter.className} bg-gray-950 text-gray-50`}>
+		<body className={`antialiased ${inter.className} bg-gray-950 text-gray-50 selection:bg-blue-500 selection:text-blue-950`}>
 			{children}
-			{/* <div className="absolute inset-0 bg-gray-950 z-50"/> */}
 		</body>
 	</html>
 );
 
-export default Layout;
+export default RootLayout;
 
 export {
 	metadata,
