@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes spin {
+	from {
+		transform: rotate3d(0, 0, 1, 0deg);
+	}
+	to {
+		transform: rotate3d(0, 0, 1, 360deg);
+	}
+}
+
+.chaos {
+	animation: spin 90s linear infinite;
+}
+
 .markdown strong {
 	@apply text-blue-500;
 }

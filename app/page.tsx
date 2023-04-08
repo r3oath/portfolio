@@ -6,11 +6,13 @@ import Markdown from 'react-markdown';
 import ElapsedTime from '@app/components/elapsed-time';
 import Card from '@app/components/card';
 import content from '@app/content.json';
+import ChaosOne from '@app/components/svg/chaos-one';
 
 const robotoMono = Roboto_Mono({subsets: ['latin']});
 
 const HeroSection = (): React.ReactElement => (
 	<div className="relative">
+		<ChaosOne className="hidden lg:block absolute bottom-0 -mb-[190px] blur-lg chaos"/>
 		<div className="lg:absolute rounded-full mx-auto top-[50%] left-[50%] mt-16 lg:-mt-[280px] lg:-ml-[150px] w-[150px] lg:w-[300px] h-[150px] lg:h-[300px] bg-gradient-to-b from-gray-500 p-1 lg:p-2 z-20">
 			<Image
 				priority
