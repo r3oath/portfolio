@@ -31,9 +31,10 @@
 	},
 	"playground": {
 		"heading": "Playground.",
-		"subheading": "This page is my playground. Whenever I stumble across _attractive_ UI elements on the web or mobile apps, I attempt to recreate them. Not only does it serve to hone my skills, but it's always an enjoyable challenge.",
-		"intro": "I'm sharing this with you so that it may not only inspire you to try the same (if you're a developer) but also serve as a demonstration of my front-end development capabilities.",
-		"tooling": "My toolset of choice is [TailwindCSS](https://tailwindcss.com/), [React](https://react.dev/), [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [DatoCMS](https://www.datocms.com/)",
+		"subheading": "This page is my playground. Whenever I stumble across particularly _attractive_ UI elements, I endeavour to recreate them. It's a fun personal challenge. I've lived through all CSS flavours and paradigms: vanilla, Less, Sass, SMACCS, and BEM. For now, however, I've settled on [Tailwind](https://tailwindcss.com/).",
+		"intro": "I'm sharing this with you so that it may not only inspire you to try the same (if you're a developer) but also demonstrate my front-end development capabilities. Like what you see? [Get in touch.](mailto:tristan@pixls.com.au)",
+		"repo": "Are you interested in seeing the source? [Check out my portfolio](https://github.com/r3oath/portfolio) on GitHub.",
+		"tooling": "My stack of choice is [Tailwind](https://tailwindcss.com/), [React](https://react.dev/), [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [DatoCMS](https://www.datocms.com/)",
 		"logos": [
 			{
 				"src": "/tailwindcss.svg",

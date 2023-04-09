@@ -15,6 +15,9 @@ const PlaygroundPage = (): React.ReactElement => (
 		<p className="relative text-md lg:text-lg text-gray-400 mt-4 text-justify markdown">
 			<Markdown components={{p: React.Fragment}}>{content.playground.intro}</Markdown>
 		</p>
+		<p className="relative text-md lg:text-lg text-gray-400 mt-4 text-justify markdown">
+			<Markdown components={{p: React.Fragment}}>{content.playground.repo}</Markdown>
+		</p>
 		<div className="hidden lg:block relative border-b border-white/25 w-full mt-32">
 			<div className="absolute flex items-center justify-center left-[50%] top-[50%] -mt-4 -ml-6 w-12 h-8 bg-white/5 rounded backdrop-blur">
 				<CodeBracketIcon className="w-5 text-gray-200"/>
