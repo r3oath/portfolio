@@ -7,7 +7,7 @@ import ChaosTwo from '@app/components/svg/chaos-two';
 
 const PlaygroundPage = (): React.ReactElement => (
 	<div className="relative mx-auto p-4 w-full max-w-4xl">
-		<ChaosTwo className="hidden lg:block absolute top-0 -mt-[130px] blur-lg chaos z-0"/>
+		<ChaosTwo className="hidden lg:block absolute top-0 -mt-[120px] blur-lg chaos z-0"/>
 		<h1 className="relative text-4xl lg:text-6xl font-extrabold mt-8 lg:mt-32 text-grey-200">{content.playground.heading}</h1>
 		<p className="relative text-lg lg:text-2xl text-gray-200 mt-8 text-justify markdown">
 			<Markdown components={{p: React.Fragment}}>{content.playground.subheading}</Markdown>
