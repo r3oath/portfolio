@@ -31,10 +31,11 @@
 	},
 	"playground": {
 		"heading": "Playground.",
-		"subheading": "This page is my playground. Whenever I stumble across particularly _attractive_ UI elements, I endeavour to recreate them. It's a fun personal challenge. I've lived through all CSS flavours and paradigms: vanilla, Less, Sass, SMACCS, and BEM. For now, however, I've settled on [Tailwind](https://tailwindcss.com/).",
+		"subheading": "This page is my playground. Whenever I stumble across particularly _attractive_ UI elements, I endeavour to recreate them. It's a fun personal challenge. Throughout my career I've used all types of CSS flavours and paradigms: vanilla, Less, Sass, SMACCS, and BEM. These days, however, I've fallen in love with [Tailwind](https://tailwindcss.com/).",
 		"intro": "I'm sharing this with you so that it may not only inspire you to try the same (if you're a developer) but also demonstrate my front-end development capabilities. Like what you see? [Get in touch.](mailto:tristan@pixls.com.au)",
-		"repo": "Are you interested in seeing the source? [Check out my portfolio](https://github.com/r3oath/portfolio) on GitHub.",
+		"repo": "Are you interested in seeing the source code? [View this site on GitHub.](https://github.com/r3oath/portfolio)",
 		"tooling": "My stack of choice is [Tailwind](https://tailwindcss.com/), [React](https://react.dev/), [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [DatoCMS](https://www.datocms.com/)",
+		"viewport": "**Please view this page on a large viewport.** Due to the size constraints of the example window sandboxes, this page only works well on desktop and large tablet devices.",
 		"logos": [
 			{
 				"src": "/tailwindcss.svg",
