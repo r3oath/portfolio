@@ -46,15 +46,15 @@ const menuIcons: React.ElementType[] = [
 const recommendations: Recommendation[] = [
 	{
 		icon: GlobeAltIcon,
-		label: 'Trending Sedunia',
+		label: 'Worldwide events',
 	},
 	{
 		icon: UsersIcon,
-		label: 'Bahan Perbincangan',
+		label: 'Popular discussions',
 	},
 	{
 		icon: ArrowTrendingUpIcon,
-		label: 'Melanjak Pesat',
+		label: 'Up and coming',
 	},
 ];
 
@@ -93,7 +93,7 @@ const podcasters: Podcaster[] = [
 		followers: 2_044_153,
 	},
 	{
-		name: 'Aspen Levin',
+		name: 'Sarah Levin',
 		avatar: '/avatar-3.jpg',
 		followers: 1_255_323,
 	},
