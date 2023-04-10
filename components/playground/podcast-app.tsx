@@ -188,7 +188,7 @@ const PodcastApp = (): React.ReactElement => (
 			</div>
 		</div>
 		<div className="w-64 bg-gray-100 rounded text-gray-950 p-8">
-			<h3 className="font-bold">Kategori</h3>
+			<h3 className="font-bold">Categories</h3>
 			<div className="flex flex-wrap mt-6">
 				{categories.map(({icon: Icon, label, stat}, index) => (
 					<div key={label} className={`flex flex-col items-center justify-center w-1/2 p-4 border-gray-300 cursor-pointer hover:bg-gray-200 transition-colors ${index === 0 ? 'border-r border-b' : ''} ${index === 3 ? 'border-l border-t -translate-x-[1px] -translate-y-[1px] bg-gradient-to-b from-gray-200' : ''}`}>
