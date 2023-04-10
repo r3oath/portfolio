@@ -106,7 +106,7 @@ const PodcastApp = (): React.ReactElement => (
 				{menuIcons.map((Icon, index) => (
 					// eslint-disable-next-line react/no-array-index-key
 					<li key={index} className="flex items-center justify-center py-6 w-full cursor-pointer group">
-						<Icon className={`text-gray-400 ${index === 0 ? 'text-black' : ''} group-hover:text-black w-5 transition-colors`}/>
+						<Icon className={`${index === 0 ? 'text-black' : 'text-gray-400'} group-hover:text-black w-5 transition-colors`}/>
 					</li>
 				))}
 			</ul>
