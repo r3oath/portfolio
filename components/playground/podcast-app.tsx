@@ -144,7 +144,7 @@ const PodcastApp = (): React.ReactElement => (
 						</div>
 						<div className="flex items-center justify-center gap-2 w-1/3 bg-white/5 backdrop-blur-sm h-full border-t border-r border-white/10">
 							<MusicalNoteIcon className="w-5"/>
-							<span className="text-sm">Music and Art</span>
+							<span className="text-sm">Birds, Hugh GTK</span>
 						</div>
 						<div className="flex items-end justify-end w-1/3 h-full pr-2">
 							<span className={`${roboto.className} text-9xl/none font-bold opacity-25`}>01</span>
@@ -198,7 +198,7 @@ const PodcastApp = (): React.ReactElement => (
 					</div>
 				))}
 			</div>
-			<h3 className="font-bold mt-8">Top Podcaster</h3>
+			<h3 className="font-bold mt-8">Similar Podcasters</h3>
 			<div className="mt-6 space-y-4">
 				{podcasters.map(({name, avatar, followers}) => (
 					<div key={name} className="flex items-center gap-3 cursor-pointer">
