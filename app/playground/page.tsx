@@ -91,6 +91,10 @@ const PlaygroundPage = (): React.ReactElement => (
 					</div>
 				))}
 			</div>
+			<p className="hidden lg:block text-xs max-w-2xl mx-auto text-gray-400 text-center mt-32">
+				<span className="font-bold block text-sm text-gray-300 mb-2">Disclaimer</span>
+				<Markdown components={{p: React.Fragment}}>{content.playground.disclaimer}</Markdown>
+			</p>
 		</div>
 	</div>
 );
