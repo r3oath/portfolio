@@ -7,6 +7,7 @@ import {CodeBracketIcon, ArrowTopRightOnSquareIcon} from '@heroicons/react/20/so
 import content from '@app/content.json';
 import ChaosTwo from '@app/components/svg/chaos-two';
 import {metadata as PodcastAppMetadata} from '@app/components/playground/podcast-app';
+import {metadata as GameStreamTournamentMetadata} from '@app/components/playground/game-stream-tournament';
 import type {PlaygroundMetadata} from '@app/components/playground/types';
 
 type PlaygroundItem = {
@@ -18,6 +19,10 @@ const items: PlaygroundItem[] = [
 	{
 		component: lazy(async () => import('@app/components/playground/podcast-app')),
 		metadata: PodcastAppMetadata,
+	},
+	{
+		component: lazy(async () => import('@app/components/playground/game-stream-tournament')),
+		metadata: GameStreamTournamentMetadata,
 	},
 ].sort((a, b) => {
 	return a.metadata.granularity === b.metadata.granularity
@@ -69,14 +74,14 @@ const PlaygroundPage = (): React.ReactElement => (
 			<p className="block lg:hidden text-center max-w-xl mx-auto mt-16 bg-gray-900 border border-gray-600 p-6 rounded-lg">
 				<Markdown components={{p: React.Fragment}}>{content.playground.viewport}</Markdown>
 			</p>
-			<div className="hidden lg:block mt-24">
+			<div className="hidden lg:block mt-24 space-y-16">
 				{items.map((item) => (
 					<div key={item.metadata.name}>
 						<h2 className="flex items-center">
 							<span className="uppercase text-xs font-bold text-gray-300 tracking-wide bg-gray-800 px-2 py-1 rounded-full">{item.metadata.granularity}</span>
 							<span className="ml-2 text-xl">{item.metadata.name}</span>
 						</h2>
-						<div className="flex items-center justify-between markdown">
+						<div className="relative flex items-center justify-between markdown">
 							<p className="text-gray-400">{item.metadata.description}</p>
 							<Link className="flex items-center text-gray-400" href={item.metadata.inspirationSource} target="_blank">
 								<ArrowTopRightOnSquareIcon className="w-4"/>
