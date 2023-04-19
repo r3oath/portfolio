@@ -15,6 +15,11 @@ type PlaygroundItem = {
 	metadata: PlaygroundMetadata;
 };
 
+const metadata = {
+	title: 'Playground — Tristan.',
+	description: 'I\'m a full-stack web developer, 3D generalist, gamer, and glorified nerd.',
+};
+
 const items: PlaygroundItem[] = [
 	{
 		component: lazy(async () => import('@app/components/playground/podcast-app')),
@@ -105,3 +110,7 @@ const PlaygroundPage = (): React.ReactElement => (
 );
 
 export default PlaygroundPage;
+
+export {
+	metadata,
+};
